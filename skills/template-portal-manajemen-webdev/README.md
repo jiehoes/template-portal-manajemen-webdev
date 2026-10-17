@@ -53,7 +53,7 @@ Setelah Hermes terpasang, jalankan perintah berikut di terminal untuk memasang s
 hermes skills install jiehoes/template-portal-manajemen-webdev/skills/template-portal-manajemen-webdev
 ```
 
-Jangan ketik `<owner>/<repo>` secara harfiah—itu hanya placeholder. Tinjau hasil pemindaian keamanan saat Hermes meminta persetujuan. Setelah berhasil, mulai sesi Hermes baru dan panggil `/template-portal-manajemen-webdev`.
+Tinjau hasil pemindaian keamanan saat Hermes meminta persetujuan. Setelah berhasil, mulai sesi Hermes baru dan panggil `/template-portal-manajemen-webdev`.
 
 Perintah ini memasang skill dari GitHub; untuk folder lokal atau file ZIP, gunakan petunjuk **Instalasi manual** di atas.
 

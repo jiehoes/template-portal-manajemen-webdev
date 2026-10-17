@@ -43,15 +43,19 @@ Gunakan `~/.hermes/skills/` untuk home bawaan, atau `$HERMES_HOME/skills/` bila 
 
 Setelah pemasangan, mulai sesi Hermes baru dan panggil `/template-portal-manajemen-webdev` untuk memuat panduan. Hermes menampilkan skill terpasang sebagai slash command.
 
-## Instalasi dari GitHub (opsional)
+## Instalasi dari GitHub
 
-Setelah paket ini berada di repositori GitHub yang dapat diakses Hermes, skill dapat dipasang langsung dari path foldernya:
+Repositori skill ini publik: <https://github.com/jiehoes/template-portal-manajemen-webdev>.
+
+Setelah Hermes terpasang, jalankan perintah berikut di terminal untuk memasang skill dari repositori tersebut ke profil Hermes yang aktif:
 
 ```bash
-hermes skills install <owner>/<repo>/skills/template-portal-manajemen-webdev
+hermes skills install jiehoes/template-portal-manajemen-webdev/skills/template-portal-manajemen-webdev
 ```
 
-Ganti `<owner>/<repo>` dengan repositori sebenarnya. Perintah ini tidak berlaku untuk folder lokal yang belum dipublikasikan ke GitHub.
+Jangan ketik `<owner>/<repo>` secara harfiah—itu hanya placeholder. Tinjau hasil pemindaian keamanan saat Hermes meminta persetujuan. Setelah berhasil, mulai sesi Hermes baru dan panggil `/template-portal-manajemen-webdev`.
+
+Perintah ini memasang skill dari GitHub; untuk folder lokal atau file ZIP, gunakan petunjuk **Instalasi manual** di atas.
 
 ## Cakupan dan batasan
 
